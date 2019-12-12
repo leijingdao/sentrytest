@@ -21,24 +21,19 @@ export default class T extends React.PureComponent {
         <Button
           title="trigger a native crash"
           onPress={() => {
-            // try {
-            //   a.length();
-            // } catch (error) {
-            //   Sentry.captureException(error);
-            // }
-            console.log(fjowiefnwoief);
+            A();
           }}
         />
         <Button
           title="try catch"
           onPress={() => {
-            fjwoiefhnoweinfiowef;
+            B();
           }}
         />
         <Button
           title="fsdfsdf"
           onPress={() => {
-            let a = 1 / 0 ;
+            Number.WJFOIEJF;;
           }}
         />
       </View>
