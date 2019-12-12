@@ -24,13 +24,15 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import TTT from './src/components/TT';
+import FJOI from './src/components/TT';
 
 import * as Sentry from '@sentry/react-native';
 
 Sentry.init({
   dsn: 'https://faded7c501de45d9a6880fdbf6fc335d@sentry.io/1850512',
 });
+
+Sentry.setRelease('sentrytest@1.5.0');
 
 const App = () => {
   return (
@@ -47,7 +49,7 @@ const App = () => {
             </View>
           )}
           <View style={styles.body}>
-            <TTT />
+            <FJOI />
           </View>
         </ScrollView>
       </SafeAreaView>
