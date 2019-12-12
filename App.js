@@ -24,7 +24,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import TTT from './src/components/T';
+import TTT from './src/components/TT';
 
 import * as Sentry from '@sentry/react-native';
 
