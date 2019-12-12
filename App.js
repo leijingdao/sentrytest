@@ -31,7 +31,7 @@ import * as Sentry from '@sentry/react-native';
 Sentry.init({
   dsn: 'https://faded7c501de45d9a6880fdbf6fc335d@sentry.io/1850512',
   // enableNativeCrashHandling: false,
-  release: 'sentrytest@1.3.0',
+  release: 'org.ljd.sentryTestApp-1.0',
   // enableNative: false,
 });
 
