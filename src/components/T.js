@@ -4,7 +4,7 @@ import * as Sentry from '@sentry/react-native';
 
 export default class T extends React.PureComponent {
   report = () => {
-    throw new Error('测试错误');
+    throw new Error('测试错误2222222');
   };
 
   reportNaitive = () => {
@@ -18,11 +18,11 @@ export default class T extends React.PureComponent {
     // } catch (error) {
     //   Sentry.captureException(error);
     // }
-    bbbb.length();
+    ccc.length();
   };
 
   ccc = () => {
-    Promise.reject('测试错误123123');
+    Promise.reject('测试错误222222');
   };
 
   render() {
