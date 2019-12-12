@@ -32,6 +32,7 @@ Sentry.init({
   dsn: 'https://faded7c501de45d9a6880fdbf6fc335d@sentry.io/1850512',
   enableNativeCrashHandling: false,
   release: 'sentrytest@1.2.0',
+  enableNative: false,
 });
 
 const App = () => {
