@@ -33,6 +33,26 @@ export default class T extends React.PureComponent {
         <Button title="trigger a native crash" onPress={this.reportNaitive} />
         <Button title="try catch" onPress={this.reportCaptureException} />
         <Button title="fsdfsdf" onPress={this.ccc} />
+
+        <Button
+          title="trigger a js exception"
+          onPress={() => {
+            throw new Error('gerggdf');
+          }}
+        />
+        <Button
+          title="trigger a native crash"
+          onPress={() => {
+            // try {
+            //   a.length();
+            // } catch (error) {
+            //   Sentry.captureException(error);
+            // }
+            vvdsvsdfg.length();
+          }}
+        />
+        <Button title="try catch" onPress={this.reportCaptureException} />
+        <Button title="fsdfsdf" onPress={this.ccc} />
       </View>
     );
   }
