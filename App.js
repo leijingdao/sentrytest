@@ -25,7 +25,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import FJOI from './src/components/TT';
-import Lei from './src/components/Lei';;
+import Lei from './src/components/Lei';
 
 import * as Sentry from '@sentry/react-native';
 
